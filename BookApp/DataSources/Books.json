@@ -1,0 +1,99 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cra47_bookses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cra47_books",
+    "MaxGetRowsCount": 500,
+    "Name": "Books",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cra47_Authorid": "Author",
+      "cra47_books_AsyncOperations": "System Jobs",
+      "cra47_books_BulkDeleteFailures": "Bulk Delete Failures",
+      "cra47_books_DuplicateBaseRecord": "Duplicate Records (cra47_books_DuplicateBaseRecord)",
+      "cra47_books_DuplicateMatchingRecord": "Duplicate Records (cra47_books_DuplicateMatchingRecord)",
+      "cra47_books_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cra47_books_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cra47_books_ProcessSession": "Process Sessions",
+      "cra47_books_SyncErrors": "Sync Errors",
+      "cra47_booksid": "Books",
+      "cra47_Languagesid": "Languages",
+      "cra47_title": "Title",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Books",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Books (Views)",
+    "Name": "_cra47_books_views",
+    "RelatedEntityName": "Books",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "17c7d4c2-1729-45e9-b6b5-590c77ab9535": "Active Books",
+      "55025ee4-d335-442c-95b5-43cd15ee0276": "Books Lookup View",
+      "81413e42-e500-448c-8d96-ff8449fcc673": "Books Advanced Find View",
+      "a03711c1-8800-40dd-8d19-94e0c70615e9": "Books Associated View",
+      "e20fa6fd-5f81-436a-bacb-98e7e8eb5c81": "Inactive Books"
+    }
+  },
+  {
+    "DisplayName": "Status (Books)",
+    "Name": "cra47_books_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Books"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Books",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Books)",
+    "Name": "cra47_books_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Books"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Books",
+    "Type": "OptionSetInfo"
+  }
+]

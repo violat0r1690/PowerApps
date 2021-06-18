@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cra47_authors",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cra47_author",
+    "MaxGetRowsCount": 500,
+    "Name": "Authors",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cra47_author_AsyncOperations": "System Jobs",
+      "cra47_author_BulkDeleteFailures": "Bulk Delete Failures",
+      "cra47_author_DuplicateBaseRecord": "Duplicate Records (cra47_author_DuplicateBaseRecord)",
+      "cra47_author_DuplicateMatchingRecord": "Duplicate Records (cra47_author_DuplicateMatchingRecord)",
+      "cra47_author_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cra47_author_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cra47_author_ProcessSession": "Process Sessions",
+      "cra47_author_SyncErrors": "Sync Errors",
+      "cra47_authorid": "Author",
+      "cra47_authorname": "AuthorName",
+      "cra47_Books_N1_Author": "Books",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Authors",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Authors (Views)",
+    "Name": "_cra47_author_views",
+    "RelatedEntityName": "Authors",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0b7603eb-3390-4536-8e27-74d74aebe6cb": "Inactive Authors",
+      "2af6c2b6-6798-438d-81e0-18864fbcb6ac": "Active Authors",
+      "2f3e86b1-ee4f-4e08-a443-f62d4d2cfa44": "Author Advanced Find View",
+      "9cc4fc70-53ae-448b-b534-3e081418e11a": "Author Associated View",
+      "b9630f39-0531-4f62-b4e0-a851ad556300": "Author Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (Authors)",
+    "Name": "cra47_author_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Authors"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Authors",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Authors)",
+    "Name": "cra47_author_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Authors"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Authors",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -2,15 +2,15 @@
   "ComponentIndexes": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 7,
-    "Button2": 8,
+    "btn1": 8,
+    "btn3": 7,
+    "icn4": 6,
     "Icon1": 5,
-    "Icon1_1": 6,
     "Rectangle1": 4,
     "Screen1": 3
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2022 10:53:14",
+  "HeaderLastSavedDateTimeUTC": "01/05/2022 10:54:20",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -26,10 +26,10 @@
   },
   "PublishOrderIndices": {
     "App": 0,
-    "Button1": 2,
-    "Button2": 0,
+    "btn1": 0,
+    "btn3": 2,
+    "icn4": 1,
     "Icon1": 1,
-    "Icon1_1": 1,
     "Rectangle1": 0,
     "Screen1": 0
   },

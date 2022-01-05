@@ -2,14 +2,15 @@
   "ComponentIndexes": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 6,
+    "Button1": 7,
+    "Button2": 8,
     "Icon1": 5,
-    "Icon1_1": 7,
+    "Icon1_1": 6,
     "Rectangle1": 4,
     "Screen1": 3
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2022 10:40:31",
+  "HeaderLastSavedDateTimeUTC": "01/05/2022 10:53:14",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -19,13 +20,14 @@
   "OrderGroupControls": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 2,
-    "icon": 1,
+    "button": 1,
+    "icon": 2,
     "rectangle": 0
   },
   "PublishOrderIndices": {
     "App": 0,
     "Button1": 2,
+    "Button2": 0,
     "Icon1": 1,
     "Icon1_1": 1,
     "Rectangle1": 0,
@@ -34,10 +36,14 @@
   "ResourcesJsonIndices": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0202421,
+    "AnalysisLoadTime": 0.0830583,
     "ControlCount": {
-      "icon": 1
+      "button": 1,
+      "icon": 2,
+      "rectangle": 1,
+      "screen": 1
     },
+    "DeserializationLoadTime": 0.5020099,
     "ErrorCount": 0
   }
 }

@@ -5,13 +5,14 @@
     "btn1": 5,
     "btn3": 9,
     "btn3_1": 8,
+    "btn3_2": 10,
     "icn4": 7,
     "Icon1": 6,
     "Rectangle1": 4,
     "Screen1": 3
   },
   "FunctionParamsInvariantScripts": {},
-  "HeaderLastSavedDateTimeUTC": "01/05/2022 10:58:06",
+  "HeaderLastSavedDateTimeUTC": "01/05/2022 10:59:14",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -30,6 +31,7 @@
     "btn1": 4,
     "btn3": 8,
     "btn3_1": 7,
+    "btn3_2": 7,
     "icn4": 6,
     "Icon1": 5,
     "Rectangle1": 3,
@@ -40,7 +42,7 @@
   "VolatileProperties": {
     "AnalysisLoadTime": 0.0229905,
     "ControlCount": {
-      "button": 3,
+      "button": 4,
       "icon": 2,
       "rectangle": 1,
       "screen": 1

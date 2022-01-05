@@ -55,7 +55,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "btn1",
-    "ParentIndex": 5,
+    "ParentIndex": 1,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -286,7 +286,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "btn3",
-    "ParentIndex": 2,
+    "ParentIndex": 4,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -736,7 +736,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "icn4",
-    "ParentIndex": 4,
+    "ParentIndex": 3,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {
@@ -895,7 +895,7 @@
     "LayoutName": "",
     "MetaDataIDKey": "",
     "Name": "Icon1",
-    "ParentIndex": 1,
+    "ParentIndex": 2,
     "PersistMetaDataIDKey": false,
     "Properties": [
       {

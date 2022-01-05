@@ -23,3 +23,10 @@ Screen1 As screen:
         Y: =395
         ZIndex: =4
 
+    Button2 As button:
+        Fill: =RGBA(220, 153, 153, 1)
+        Text: ="Button"
+        X: =550
+        Y: =595
+        ZIndex: =5
+

@@ -1,7 +1,19 @@
 {
   "ComponentIndexes": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "btn1": 6,
+    "btn3": 8,
+    "btn3_1": 9,
+    "btn3_2": 10,
+    "icn4": 7,
+    "Icon1": 5,
+    "Rectangle1": 4,
+    "Screen1": 3,
+    "TextInput1": 11
+  },
   "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "01/05/2022 11:00:21",
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
@@ -10,8 +22,35 @@
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "PublishOrderIndices": {},
+  "OrderXMLTemplate": {
+    "button": 3,
+    "icon": 2,
+    "rectangle": 1,
+    "text": 0
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "btn1": 5,
+    "btn3": 7,
+    "btn3_1": 8,
+    "btn3_2": 9,
+    "icn4": 6,
+    "Icon1": 4,
+    "Rectangle1": 3,
+    "Screen1": 2,
+    "TextInput1": 0
+  },
   "ResourcesJsonIndices": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0341517,
+    "ControlCount": {
+      "button": 4,
+      "icon": 2,
+      "rectangle": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.4367323,
+    "ErrorCount": 0
+  }
 }

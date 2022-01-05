@@ -25,7 +25,9 @@ Screen1 As screen:
 
     btn1 As button:
         Fill: =RGBA(220, 153, 153, 1)
+        Height: =62
         Text: ="Button"
+        Width: =245
         X: =550
         Y: =595
         ZIndex: =5
@@ -42,4 +44,10 @@ Screen1 As screen:
         X: =598
         Y: =419
         ZIndex: =7
+
+    TextInput1 As text:
+        Default: ="testing"
+        X: =758
+        Y: =182
+        ZIndex: =8
 

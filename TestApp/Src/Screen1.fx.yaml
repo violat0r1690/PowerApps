@@ -17,3 +17,9 @@ Screen1 As screen:
         Y: =305
         ZIndex: =3
 
+    Icon1_1 As icon.Add:
+        Icon: =Icon.Add
+        X: =915
+        Y: =395
+        ZIndex: =4
+

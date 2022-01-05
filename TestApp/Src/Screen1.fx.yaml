@@ -1,0 +1,19 @@
+Screen1 As screen:
+
+    Rectangle1 As rectangle:
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Icon1 As icon.Add:
+        Icon: =Icon.Add
+        X: =560
+        Y: =130
+        ZIndex: =2
+
+    Button1 As button:
+        Text: ="Button"
+        X: =210
+        Y: =305
+        ZIndex: =3
+
